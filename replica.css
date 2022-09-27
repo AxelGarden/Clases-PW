@@ -1,0 +1,530 @@
+*
+{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: Arial, Helvetica, sans-serif;
+ letter-spacing: 1px;
+}
+
+:root
+{
+--primary-color:#eb5757;
+--secondary-color:#222;
+--light-color:#f9f9f9;
+--dark-color:#333;
+}
+header
+{
+    background-color: var(--primary-color);
+    width: 100vw;
+    position: fixed;
+    height: 150px;
+    z-index: 10;
+
+}
+header .covid
+{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--light-color);    
+    background-color: var(--secondary-color);
+}
+
+header .covid button
+{  
+    width: 160px;
+    height: 50px;
+    border-radius: 17px;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+header .menu
+{
+
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+
+}
+a
+{
+    text-decoration: none;
+}
+.menu .botones
+{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+}
+header .menu div a
+{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    justify-content: center;
+    color: var(--light-color);
+    
+}
+header .menu div a:hover
+{
+
+  background-color: var(--dark-color);
+    
+}
+
+header .menu div button
+{
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-image: url('./imagenes/compras.png');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    position: relative;
+    background-color: #222;
+}
+
+header .menu div button span
+{
+width:30px;
+height:30px;
+padding-top: 4px;
+border-radius: 50%;
+display: inline-block;
+position: absolute;
+top: -10px;
+left: 35px;
+text-align: center;
+background-color: var(--light-color);
+
+}
+header .menu span
+{
+    position: relative;
+    top: 30px;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-image: url('./imagenes/icono.svg');
+}
+
+main .fondoimg1
+{
+    position: relative;
+    top: -100px;
+    width: 100vw;
+    height: 800px;
+    background-image: url("./imagenes/fondo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.fondoimg1 h1
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    top: 190px;
+    left: -450px;
+    color: var(--light-color);
+}
+.fondoimg1 p
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    top: 200px;
+    left: -400px;
+    color: var(--light-color);
+}
+.fondoimg1 button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 240px;
+    left: 298px;
+    color: var(--light-color);
+    background: none;
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    border-color: white;
+}
+
+.fondoimg1 button:hover
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 240px;
+    left: 298px;
+    color: var(--dark-color);
+    background: var(--light-color);
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    border-color: var(--light-color);
+}
+
+
+
+.cardstexto
+{
+    width: 100vw;
+    height: 200px;
+}
+
+.cardstexto p span,h2
+{
+    position: relative;
+    justify-content: flex-start;
+    top: 0px;
+    left: -600px;
+}
+
+.parrafo2
+{
+ position: relative;
+ top: -70px;
+ left: -200px;
+ display: flex;
+ justify-content: end;
+}
+
+main .cards article div
+{
+ width: 300px;
+ height: 300px;
+ background-color: var(--secondary-color);
+ border-radius: 6px;
+}
+main .cards article span,h3
+{
+    color: var(--light-color);
+}
+main .cards article h3
+{
+    position:relative;
+    top: 100px;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.art1
+{
+    position: relative;
+    left: 200px;
+   
+}
+.art2
+{
+    position: relative;
+    top: -300px;
+    left: 700px;
+}
+.art3
+{
+    position: relative;
+    top: -600px;
+    left: 1300px;
+}
+main .cards article div p
+{ 
+    size: 50px;
+    position: relative;
+    top: 280px;
+}
+
+.img2
+{
+    width: 100vw;
+    height: 900px;
+    background-image: url('./imagenes/img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--light-color);
+    justify-content: top;
+    align-items: center;
+    display: flex;
+    flex-direction: column;   
+}
+.img2 h2
+{
+    position: relative;
+    left: 70px;
+text-align: right;
+}
+.img2 p
+{
+    position: relative;
+    top: 10px;
+    text-align: end;
+    
+}
+.img2 button
+{ 
+width: 250px;
+height: 40px;    
+position: relative;
+top: 20px;
+left: 150px;
+border-radius: 6px;
+border: none;
+}
+.img2 button:hover
+{ 
+width: 250px;
+height: 40px;    
+position: relative;
+top: 20px;
+left: 150px;
+border-radius: 6px;
+border: none;
+background-color: var(--primary-color);
+color: var(--light-color);
+}
+
+.productos p span,h2
+{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.productos
+{
+    position: relative;
+    top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.productos p .shop
+{
+    position: relative;
+    right: 600px;
+   
+}
+.productos div
+{ 
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.productos div article h4,p,span
+{
+    display: flex;
+    justify-content: center;
+
+}
+.im1
+{
+    background-image: url('./imagenes/campaña.jpg');
+    background-repeat:no-repeat;
+    height: 300px;
+    width: 300px;
+    background-size: 300px 300px;
+}
+.im2
+{
+    background-image: url('./imagenes/tasa.jpg');
+    background-repeat:no-repeat;
+    height: 300px;
+    width: 300px;
+    background-size: 300px 300px;
+}
+.im3
+{
+    background-image: url('./imagenes/pack.jpg');
+    background-repeat:no-repeat;
+    height: 300px;
+    width: 300px;
+    background-size: 300px 300px;
+}
+.productos div article button
+{
+   position: relative;
+   left: 100px;
+    
+    border-radius:  3px;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border: none;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+
+}
+.productos div article button:hover
+{
+    position: relative;
+    left: 100px;
+    border-radius:  3px;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    border: none;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+
+}
+.productos div article p span
+{
+    color: var(--primary-color);
+    text-decoration: line-through;
+}
+
+.productos .productosall
+{    
+    background-color: var(--secondary-color);
+    width: 200px;
+    height: 40px;
+    color: var(--light-color);
+    border-radius: 4px;
+    position: relative;
+    top: 40px;
+    left: 43vw;
+}
+.productos .productosall:hover
+{    
+    background-color: var(--primary-color);
+    width: 200px;
+    height: 40px;
+    color: var(--light-color);
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    top: 40px;
+    left: 43vw;
+}
+.ultima
+{
+    font-size: 15px;
+    color: var(--light-color);
+}
+.ultima div
+{
+
+    position:relative;
+    left: 30vw;
+    justify-content: center;
+    width: 900px;
+    height: 600px;
+    background-color: var(--secondary-color);
+}
+.ultima div p,h2
+{
+    justify-content: center;
+    align-items: center;
+}
+.ultima div b
+{
+    position: relative;
+    left: 170px;
+}
+
+.ultima div h2
+{
+ font-size: 50px;
+ position: relative;
+ left: -40px;
+}
+
+.fea
+{
+    background-image: url("./imagenes/pc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+    position: relative;
+    z-index: 2;
+    top: 550px;
+    right: 480px;
+    border: none;
+}
+
+footer
+{
+ width: 100vw;
+ height: 300px;
+ background-color: var(--dark-color);  
+}
+footer span
+{
+    background-image: url("./imagenes/icono.svg");
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 130px;
+    left: 600px;
+}
+footer p
+{
+    position: relative;
+    top: -150px;
+    color: var(--light-color);
+
+}
+.flow
+{
+    color:var(--primary-color);
+}
+.ico1
+{ 
+    border: none;
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+    background-image: url("./imagenes/tuiter.svg");
+    position: relative;
+    top: -295px;
+    left: 1600px;
+}
+.ico2
+{ 
+    border: none;
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+    background-image: url("./imagenes/feisbuc.svg");
+    position: relative;
+    top: -295px;
+    left: 1600px;
+}
+.ico3
+{ 
+    border: none;
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+    background-image: url("./imagenes/gram.svg");
+    position: relative;
+    top: -295px;
+    left: 1600px;
+    background-color: none;
+}
+
+footer p
+{
+    position: relative;
+    top: -200px;
+
+}
